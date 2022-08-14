@@ -4,20 +4,37 @@ html, body {
   background: #83a9aa;
 }
 
-body {
+/* MOBILE */
+.cyj-layout {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column-reverse;
 }
 
-.main-content {
-  width: 800px;
-  height: 100px;
-  text-align: center;
+.cyj-content {
+  flex: 1;
 }
 
-.main-label {
-  font-size: 50px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #383838;
+.cyj-menu {
+  width: 150px;
+}
+
+.cyj-bloque {
+  height: 1000px;
+}
+
+.cyj-list-menu {
+  position: inherit;
+}
+
+/* DESKTOP */
+@media (min-width: 992px) {
+  .cyj-layout {
+    flex-direction: initial;
+  }
+
+  .cyj-list-menu {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+  }
 }

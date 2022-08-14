@@ -2,15 +2,50 @@
 <html lang="en">
 <head>
   <title>Carmen y Javi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <link href="index.css" rel="stylesheet">
+  <link id="sidemenu" href="sideMenu.html" rel="import">
 </head>
 <body>
+  
+  <script>
+    $(document).ready(function () {
+      $('#sideMenu').load('./sideMenu.html');
+    });
+    
+  </script>
 
-<div class="main-content">
-  <label class="main-label">La receta se está preparando...</label>
-</div>
 
+  <div class="container-xxl bd-gutter mt-3 my-md-4 cyj-layout">
+  
+    <div class="cyj-content">
+      <div id="inicio" class="container cyj-bloque">
+        <p class="fs-1">Primera session</p>
+        <p>Aqui podria ir una foto grande de los dos, incluso un carousel</p>
+      </div>
+    
+      <div id="lugar" class="container cyj-bloque">
+        <p class="fs-1">Lugar</p>
+        <p>Aqui podria ir info de la hacienda</p>
+      </div>
+    
+      <div id="bus" class="container cyj-bloque">
+        <p class="fs-1">Bus</p>
+        <p>Aqui podria ir info de los autobuses</p>
+      </div>
+    
+      <div id="masInfo" class="container cyj-bloque">
+        <p class="fs-1">Bus</p>
+        <p>Aqui podria ir info de los autobuses</p>
+      </div>
+    </div>
+
+    <aside id="sideMenu" class="cyj-menu"></aside>
+
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
