@@ -7,44 +7,83 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link href="index.css" rel="stylesheet">
   <link id="sidemenu" href="sideMenu.html" rel="import">
+  <link id="carrusel-location" href="carrusel-location.html" rel="import">
 </head>
 <body>
   
   <script>
     $(document).ready(function () {
-      $('#sideMenu').load('./sideMenu.html');
+      //$('#sideMenu').load('./sideMenu.html');
+      //$('#carrusel-location').load('./carrusel-location.html');
     });
     
   </script>
 
+  <!--div id="header" class="">
+    <img src="src/header.png" class="header-img" alt="">
+  </div-->
 
-  <div class="container-xxl bd-gutter mt-3 my-md-4 cyj-layout">
+  <div class="cyj-content-loading">
+    <p class="fs-1">No desesperen... Preparando contenido</p>
+  </div>
   
-    <div class="cyj-content">
-      <div id="inicio" class="container cyj-bloque">
-        <p class="fs-1">Primera session</p>
-        <p>Aqui podria ir una foto grande de los dos, incluso un carousel</p>
-      </div>
-    
-      <div id="lugar" class="container cyj-bloque">
-        <p class="fs-1">Lugar</p>
-        <p>Aqui podria ir info de la hacienda</p>
-      </div>
-    
-      <div id="bus" class="container cyj-bloque">
-        <p class="fs-1">Bus</p>
-        <p>Aqui podria ir info de los autobuses</p>
-      </div>
-    
-      <div id="masInfo" class="container cyj-bloque">
-        <p class="fs-1">Bus</p>
-        <p>Aqui podria ir info de los autobuses</p>
-      </div>
+  <!--div class="cyj-content">
+    <div id="carmen" class="container cyj-bloque">
+      <p class="fs-1 sticky-top">Carmen</p>
+      <img src="src/carmen-web.png" class="foto-carmen">
     </div>
 
-    <aside id="sideMenu" class="cyj-menu"></aside>
+    <div id="javi" class="container cyj-bloque">
+      <p class="fs-1 sticky-top">Javi</p>
+      <p></p>
+    </div>
+  
+    <div id="lugar" class="container cyj-bloque">
+      <p class="fs-1 sticky-top">Hacienda Santa Rosa</p>
+      <div id="carouselLocation" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="src/mapa.png" class="d-block w-100" alt="mapa">
+          </div>
+          <div class="carousel-item">
+            <img src="src/paso1.png" class="d-block w-100" alt="paso1">
+          </div>
+          <div class="carousel-item">
+            <img src="src/Paso3.png" class="d-block w-100" alt="paso2">
+          </div>
+          <div class="carousel-item">
+            <img src="src/Paso4.png" class="d-block w-100" alt="paso2">
+          </div>
+          <div class="carousel-item">
+            <img src="src/Paso6.png" class="d-block w-100" alt="paso2">
+          </div>
+          <div class="carousel-item">
+            <img src="src/Paso8.png" class="d-block w-100" alt="paso2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselLocation" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselLocation" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  
+    <div id="bus" class="container cyj-bloque">
+      <p class="fs-1 sticky-top">Buses</p>
+      <p>Villa del Rio - Salida 12:00 en el Ayuntamiento </p>
+      <p>Córdoba - Salida 12:30 en La victoria (frente al mercado la victoria) </p>
+    </div>
+  
+    <div id="masInfo" class="container cyj-bloque">
+      <p class="fs-1 sticky-top">Viernes noche</p>
+      <p>Se tomara un refrigerio el viernes a eso de las 20:00 en la plaza de las cañas para la gente que esté en Córdoba y quiera acercarse</p>
+    </div>
 
-  </div>
+  </div-->
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>

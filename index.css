@@ -1,17 +1,42 @@
 html, body {
   width: 100%;
   height: 100%;
-  background: #83a9aa;
+}
+html {
+  background: url(src/background.png) no-repeat 100% 100%;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 100vh;
+}
+body {
+  overflow: auto;
+  border: 4px solid #c25a5a;
+  background-color: #f3e1c8;
+  max-width: 500px;
+  margin: auto;
 }
 
-/* MOBILE */
-.cyj-layout {
-  display: flex;
-  flex-direction: column-reverse;
+/* RESPONSIVE (MOBILE y DESKTOP */
+
+/* Provisional contenido */
+.cyj-content-loading {
+  text-align: center;
+  margin: 90% auto;
 }
+/************************/
 
 .cyj-content {
-  flex: 1;
+  padding: 20px;
+}
+
+.header-img {
+  width: 100%;;
+}
+
+.foto-carmen {
+  width: 100%;;
 }
 
 .cyj-menu {
@@ -19,22 +44,20 @@ html, body {
 }
 
 .cyj-bloque {
-  height: 1000px;
+  _height: 1000px;
 }
 
 .cyj-list-menu {
   position: inherit;
+  display: none;
 }
 
-/* DESKTOP */
-@media (min-width: 992px) {
-  .cyj-layout {
-    flex-direction: initial;
-  }
-
-  .cyj-list-menu {
-    position: fixed;
-    right: 20px;
-    top: 20px;
-  }
+/* CARRUSEL */
+#carouselLocation {
+  border: 5px solid #d2af43;
+}
+.carousel-indicators [data-bs-target],
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #d2af43;
 }
