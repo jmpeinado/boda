@@ -28,28 +28,73 @@ body {
 /************************/
 
 .cyj-content {
-  padding: 20px;
+  padding: 10px 0;
 }
 
-.header-img {
-  width: 100%;;
+.cyj-bloque-relleno {
+  height: 1000px;
+}
+.cyj-bloque-content {
+  padding: 30px 10px 30px;
+}
+
+.cyj-bloque .title {
+  background-color: #f3e1c8;
+  margin: 0;
+}
+
+.cyj-bloque .icon-bloque {
+  position: relative;
+}
+.cyj-bloque .icon-bloque .info {
+  padding-left: 50px;
+}
+.cyj-bloque .icon-bloque .info p, .text {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
+.cyj-bloque .icon-bloque .info .aviso {
+  background-color: #c25a5a;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 0px 5px;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 45px;
+  display: inline-block;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.icon.icon-traje {
+  background-image: url(src/icono-traje.png);
+}
+.icon.icon-bus {
+  background-image: url(src/icono-bus.png);
+}
+.icon.icon-enlace {
+  background-image: url(src/icono-enlace.png);
+}
+.icon.icon-copa {
+  background-image: url(src/icono-copa.png);
+}
+.icon.icon-cerveza {
+  background-image: url(src/icono-cerveza.png);
+}
+.icon.icon-cerveza-color {
+  background-image: url(src/icono-cerveza-color.png);
 }
 
 .foto-carmen {
   width: 100%;;
-}
-
-.cyj-menu {
-  width: 150px;
-}
-
-.cyj-bloque {
-  _height: 1000px;
-}
-
-.cyj-list-menu {
-  position: inherit;
-  display: none;
 }
 
 /* CARRUSEL */
