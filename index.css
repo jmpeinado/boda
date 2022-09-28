@@ -62,7 +62,20 @@ body {
   font-size: 10px;
   line-height: 10px;
 }
-
+.cyj-bloque .icon-bloque .info .ok {
+  background-color: #0db304;
+  color:#fff;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 0px 5px;
+  font-size: 10px;
+  line-height: 10px;
+}
+.cyj-bloque .icon-bloque .info .enlace{
+  _text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
 .icon {
   width: 40px;
   height: 45px;
