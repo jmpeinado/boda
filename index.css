@@ -38,6 +38,13 @@ body {
   padding: 30px 10px 30px;
 }
 
+.cyj-content .iban {
+  margin-left: 30px;
+}
+.cyj-content .iban p {
+  line-height: 10px;
+}
+
 .cyj-bloque .title {
   background-color: #f3e1c8;
   margin: 0;
